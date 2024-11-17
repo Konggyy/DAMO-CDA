@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>MAiver - Diario de Aprendizaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header con el nombre del equipo y logo -->
+    <header>
+        <h1>CDA MAIVER</h1>
+        <img src="logo_nofondo.png" alt="Logo de MAiver" class="logo">
+        <a href="https://github.com/ivangomezbrandon/MAIVER" target="_blank" class="github-link">
+            <i class="fab fa-github"></i>
+        </a>
+    </header>
+    
+    
+
+    <!-- Tabs para cada integrante -->
+    <div class="tabs">
+        <button class="tablink" onclick="openTab(event, 'Integrante1')">MARC</button>
+        <button class="tablink" onclick="openTab(event, 'Integrante2')">IVAN </button>
+        <button class="tablink" onclick="openTab(event, 'Integrante3')">ERIC</button>
+    </div>
+
+    <!-- Contenido de cada tab con lista de entradas y filtro -->
+    <div id="Integrante1" class="tabcontent">
+        <select id="searchSelect1" onchange="filterEntries('Integrante1')">
+            <option value="">Seleccione un día</option>
+        </select>
+        ROL: Secretario
+        <ul id="entriesList1" class="entries-list"></ul>
+    </div>
+
+    <div id="Integrante2" class="tabcontent">
+        <select id="searchSelect2" onchange="filterEntries('Integrante2')">
+            <option value="">Seleccione un día</option>
+        </select>
+        ROL: Coordinaor
+        <ul id="entriesList2" class="entries-list"></ul>
+    </div>
+
+    <div id="Integrante3" class="tabcontent">
+        <select id="searchSelect3" onchange="filterEntries('Integrante3')">
+            <option value="">Seleccione un día</option>
+        </select>
+        ROL: Especialista Documental
+        <ul id="entriesList3" class="entries-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
