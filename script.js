@@ -21,8 +21,20 @@ const entriesIntegrante1 = [
         text: "Hoy comencé a trabajar en el documento \"5 - Unity con Vuforia\", que detalla los pasos necesarios para acabar la Alpha del proyecto. Paralelamente, avancé con la versión alpha del proyecto. Sin embargo, al intentar compilarlo, nos encontramos con un error que impidió que la aplicación funcionara correctamente. Tras analizar el problema, creemos que está relacionado con el dibujo utilizado como Image Target, ya que parece no ser reconocido adecuadamente por Vuforia."
     },
     { 
-        date: "2024-11-16", 
+        date: "2024-11-17", 
         text: "Hoy finalicé el documento \"5 - Unity con Vuforia\", completando los pasos necesarios para configurar correctamente la herramienta. También logré terminar la versión alpha del proyecto, solucionando el problema de las imágenes. Descubrí que las imágenes utilizadas como Image Targets deben tener una puntuación mínima de 4 estrellas en Vuforia para que puedan ser detectadas correctamente. Este ajuste permitió que la aplicación funcionara como esperaba. Además, descargué e instalé Blender para modelar el objeto \"Bertrand\" basado en la marca para la que trabajamos. Trabajé en su diseño y exporté el modelo en los formatos .obj y .mlt para importarlo a Unity. Finalmente, preparé mi parte de la presentación del proyecto para la semana que viene."
+    },
+    { 
+        date: "2024-11-17", 
+        text: "Hoy implementé la funcionalidad para mover los modelos 3D arrastrándolos sobre la imagen 2D en Vuforia. Creé un script llamado \"ModelInteraction.cs\" que permite seleccionar y mover el modelo dentro del área delimitada por el Image Target."
+    },
+    { 
+        date: "2024-11-17", 
+        text: "Aseguré que el modelo no saliera de los límites del Image Target utilizando coordenadas locales y globales para mantener el modelo en su posición correcta dentro de la escena de AR."
+    },
+    { 
+        date: "2024-11-17", 
+        text: "Redacté un documento llamado \"6 - Movimiento y Rotación\", donde expliqué los pasos para implementar el movimiento de los modelos. Incluí detalles sobre el script utilizado, el cálculo de offsets y cómo manejar las interacciones táctiles para mover el modelo correctamente dentro de la escena de realidad aumentada."
     }
 ];
 
@@ -42,6 +54,10 @@ const entriesIntegrante2 = [
     { 
         date: "2024-11-15", 
         text: "Después de la reunión presencial en clase, nos hemos puesto a planificar la presentación de la aplicación, en la que me va a tocar plantear las tecnologías."
+    },
+    {
+        date: "2024-11-20",
+        text: "Despues de acabar el powerpoint, he preparado mi parte de la presentacion, para ser la primera version de la app y la priemra presentacion, creo que el resultado será bueno, intentare conseguir el feedback posible como corrdiandor, para mejorar las siguientes siempre que sae necesario"
     }
 ];
 
