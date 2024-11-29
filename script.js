@@ -35,6 +35,22 @@ const entriesIntegrante1 = [
     { 
         date: "2024-11-17", 
         text: "Redacté un documento llamado \"6 - Movimiento y Rotación\", donde expliqué los pasos para implementar el movimiento de los modelos. Incluí detalles sobre el script utilizado, el cálculo de offsets y cómo manejar las interacciones táctiles para mover el modelo correctamente dentro de la escena de realidad aumentada."
+    },
+    { 
+        date: "2024-11-23", 
+        text: "Hoy, tras la exposición del 22/11 decidimos cambiar un poco el rumbo del proyecto. Implementé dos scripts clave para la interacción con los modelos 3D en Unity. El primero, llamado ModelDragController.cs, permite que los usuarios arrastren los modelos dentro de la escena, asegurando un movimiento fluido. Además, creé un segundo script llamado ManualRotationController.cs, que añade la capacidad de rotar los objetos mediante una Scrollbar en la interfaz de usuario de Unity, que permite al usuario controlar la rotación del modelo en un rango de 0° a 360°."
+    },
+    { 
+        date: "2024-11-24", 
+        text: "Hoy incorporé 9 modelos 3D en Unity, 4 volantes y 4 modelos “realistas” de coches, a los cuales les implementé todos los scripts que desarrollamos previamente, asegurando que cada modelo pueda ser arrastrado rotado y escalado correctamente pero previamente seleccionado dentro de la escena. Además, utilizando Blender, diseñé dos modelos personalizados: uno de ellos es un volante con el nombre Bertrand grabado y el logotipo de la marca. También realicé la integración de las imágenes de estos modelos en la base de datos de Vuforia, asegurándome de que fueran reconocidos correctamente por la aplicación."
+    },
+    { 
+        date: "2024-11-26", 
+        text: "Dediqué el día a documentar todo el proceso en dos documentos esenciales para el proyecto. El primero, llamado \"6 - Scripts y Interfaz\", detalla cómo se desarrollaron e implementaron los scripts de movimiento rotación, escalada, selección… explicando cada componente y su integración con la interfaz de usuario. El segundo documento, \"7 - Modelos 3D en Unity\", se centra en la creación de los modelos, tanto los importados como los diseñados en Blender, y su configuración dentro del entorno de Unity."
+    },
+    { 
+        date: "2024-11-27", 
+        text: "Hoy dediqué un rato a crear el documento “CATALOGO APP”, dónde se gestionan los modelos para verse de manera correcta a través de la aplicación. Es un documento con todas las imágenes de la BD de Vuforia."
     }
 ];
 
@@ -58,6 +74,14 @@ const entriesIntegrante2 = [
     {
         date: "2024-11-20",
         text: "Despues de acabar el powerpoint, he preparado mi parte de la presentacion, para ser la primera version de la app y la priemra presentacion, creo que el resultado será bueno, intentare conseguir el feedback posible como corrdiandor, para mejorar las siguientes siempre que sae necesario"
+    },
+    { 
+        date: "2024-11-24", 
+        text: "Tal y como hemos repartido los scripts, me ha tocado hacer los script relacionados con la selección de los elementos, la rotación inicial que marcará que son elementos seleccionables y el botón de reset, para evitar acumulacion de modelos y otros problemas parecidos, para ello, he tenido que implementar un modelo vacío “empty model”, que aunque a pruebas futuras, quizás hay que reemplazar este modelo."
+    },
+    { 
+        date: "2024-11-26", 
+        text: "He acabado los scripts de rotación, y he comenzado a mirar cómo puedo generar y encontrar modelos de asientos. He encontrado una web, de la que obtendremos diferentes modelos. He seleccionado un asiento completo, y he generado variantes de este."
     }
 ];
 
@@ -82,6 +106,18 @@ const entriesIntegrante3 = [
     { 
         date: "2024-11-15", 
         text: "Hemos decidido cambiar a la plantilla Unity(2022.3.52f1)LTS junto con 3D(Built-in Render Pipeline) para construir nuestro entorno virtual en Unity. Para guardar los modelos de coches u otros modelos 3D, seguiremos usando Vuforia, que permite guardar e implementar modelos 3D en Unity."
+    },
+    { 
+        date: "2024-11-22", 
+        text: "Tras presentar nuestro primer prototipo, hemos decidido seguir usando Vuforia. En comparación con AR Engine, trabajar con Vuforia parece menos óptimo debido a que se precisa de QR o tarjetas para proyectar nuestro modelo. La decisión tomada ha sido debido a que nuestra aplicación está enfocada para un entorno más empresarial/comercial que una de enseñanza. Nuestro objetivo es usar la aplicación en complemento de un catálogo para enseñar los productos de la empresa, por ejemplo tener un catálogo con 4 tipos diferentes de ruedas para un vehículo en una imagen y con la aplicación poder verla encima de la imagen como un modelo 3D."
+    },
+    { 
+        date: "2024-11-24", 
+        text: "He encontrado 4 modelos de ruedas de coches para poder incorporarlos en nuestra base de datos de vuforia. En conjunto hemos añadido los modelos encontrados a nuestro proyecto de Unity."
+    },
+    { 
+        date: "2024-11-25", 
+        text: "Hemos estado trabajando en el powerpoint dedicado a nuestra presentación del viernes, día 29 para poder enseñar nuestro proyecto a los integrantes de Bertrandt. También hemos integrado los scripts de RotateObject.sh para que al visualizar los modelos giren sobre su propio eje y de forma pausada y también el script ScaleController.sh para aumentar o disminuir el tamaño del modelo seleccionado."
     }
 ];
 
