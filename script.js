@@ -51,6 +51,30 @@ const entriesIntegrante1 = [
     { 
         date: "2024-11-27", 
         text: "Hoy dediqué un rato a crear el documento “CATALOGO APP”, dónde se gestionan los modelos para verse de manera correcta a través de la aplicación. Es un documento con todas las imágenes de la BD de Vuforia."
+    },
+    { 
+        date: "2024-12-01", 
+        text: "Hoy dediqué el día a buscar el modelo 3D separado por partes poner todos sus materiales (24) y hacer las dos nuevas implementaciones pedidas, por el profesor, tanto la funcionalidad de cambio de color a través del script CarColorChange.cs como las animaciones de las puertas a través del script DoorPilotInteraction.cs. A la vez, de hacer los scripts documenté el trabajo en un documento llamado “8 - Modelo por partes - animaciones y cambios de color”."
+    },
+    { 
+        date: "2024-12-03", 
+        text: "Hoy implementé un botón de información en la app, añadiendo tres paneles para mostrar las instrucciones de uso con mayor claridad, incluyendo imágenes ilustrativas. Utilicé el script InfoPopUpController.cs para gestionar la funcionalidad, asegurándome de que todos los botones estén correctamente conectados."
+    },
+    { 
+        date: "2024-12-04", 
+        text: "Hoy implementé un botón de POV (Point of View) que permite visualizar el vehículo desde su interior de forma más fácil y directa. Utilicé el script POVController.cs para gestionar esta funcionalidad, enfocándome en mejorar la experiencia del usuario."
+    },
+    { 
+        date: "2024-12-06", 
+        text: "Hoy implementé un botón lateral que despliega las funcionalidades de información, POV y cambio de colores según el modelo seleccionado. Utilicé el script ModelType para determinar qué botones se muestran en función del tipo de modelo y el script MenuController.cs para gestionar la visibilidad dinámica de estos botones. Además, reemplacé el botón de reset por uno más estético, mejorando la interfaz de usuario en general."
+    },
+    { 
+        date: "2024-12-10", 
+        text: "Hoy modifiqué el catálogo según la solicitud del profesor, de manera que los modelos de los coches ahora se muestran de forma individual en lugar de aparecer en conjunto. Además, actualicé el PowerPoint del proyecto para reflejar todas las nuevas implementaciones realizadas hasta el momento."
+    },
+    { 
+        date: "2024-12-11", 
+        text: "Hoy dediqué un tiempo a cambiar el logo de la APP de manera que sea más atractivo, también a redactar el documento “9 - Barra Lateral y sus funcionalidades”. Además de corregir algún detalle como los textos del botón de información."
     }
 ];
 
@@ -82,6 +106,26 @@ const entriesIntegrante2 = [
     { 
         date: "2024-11-26", 
         text: "He acabado los scripts de rotación, y he comenzado a mirar cómo puedo generar y encontrar modelos de asientos. He encontrado una web, de la que obtendremos diferentes modelos. He seleccionado un asiento completo, y he generado variantes de este."
+    },
+    {
+        date: "2024-12-04",
+        text: "Hoy he modificado el script que escala los modelos, para poder usar dos dedos, además, tal y como hemos quedado, al escalar, se mostrará el icono correspondiente en la parte superior izquierda."
+    },
+    {
+        date: "2024-12-06",
+        text: "He acabado el script de escala, pues aun no se sentia muy usable con dos dedos, ahora creo que el resultado es muy semejante al esperado."
+    },
+    {
+        date: "2024-12-07",
+        text: "El script de selección al final no ha sido como la primera idea que tuvimos, hemos cambiado la idea de que una “malla” envuelva al objeto, sino que vamos a dejar que el objeto deje de girar y se modifica el icono de arriba a la izquierda."
+    },
+    {
+        date: "2024-12-10",
+        text: "Hoy he acabado el script que usará el botón de POV, escalando el coche a la medida necesaria para proporcionar una sensación de primera persona e interior del vehículo, después de un rato probando con diferentes coches, creo que el modelo más completo ha quedado bien, pero al parecer ese modelo escala diferente al resto, la mayoría escalan en 15, el modelo especial escala en 1.5, suponemos que es por los tamaños originales."
+    },
+    {
+        date: "2024-12-11",
+        text: "Hemos acabado el PowerPoint, tanto la versión original, como la reducida, según el formato de Bertrand."
     }
 ];
 
@@ -118,6 +162,18 @@ const entriesIntegrante3 = [
     { 
         date: "2024-11-25", 
         text: "Hemos estado trabajando en el powerpoint dedicado a nuestra presentación del viernes, día 29 para poder enseñar nuestro proyecto a los integrantes de Bertrandt. También hemos integrado los scripts de RotateObject.sh para que al visualizar los modelos giren sobre su propio eje y de forma pausada y también el script ScaleController.sh para aumentar o disminuir el tamaño del modelo seleccionado."
+    },
+    {
+        date: "2024-12-06",
+        text: "He acabado el script de ModelDragController.cs, que mueve un modelo mediante el uso de un solo dedo, siempre y cuando el modelo esté seleccionado previamente. Ahora implementaré el otro script para rotar el modelo."
+    },
+    {
+        date: "2024-12-07",
+        text: "He acabado el script para rotar el modelo, llamado ManualRotationController.cs. Este script rota el modelo previamente seleccionado sobre el propio eje Y usando un solo dedo. Para diferenciar en qué script tiene que activarse primero al primer movimiento del dedo, hemos decidido que al principio siempre se active primero el script de movimiento del modelo y solo se active el script de rotación si se mantiene pulsado el dedo 2 segundos."
+    },
+    {
+        date: "2024-12-11",
+        text: "Hemos tenido que ajustar el PowerPoint para la presentación del día 13 para Bertrandt. Hemos comprimido el contenido existente para ajustarlo al tiempo indicado, entre 3 y 5 minutos."
     }
 ];
 
